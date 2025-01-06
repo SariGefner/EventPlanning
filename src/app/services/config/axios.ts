@@ -5,6 +5,6 @@ export const getBaseUrl = () => {
     }
     // Fallback for development
     return process.env.NODE_ENV === 'production' 
-      ? 'https://event-production-fawn.vercel.app' 
+      ? 'https://event-planning-six.vercel.app' 
       : 'http://localhost:3000';
   };

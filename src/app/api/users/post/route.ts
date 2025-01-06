@@ -96,7 +96,7 @@ export async function POST(req: Request) {
                 headers: {
                     'Access-Control-Allow-Credentials': 'true',
                     'Access-Control-Allow-Origin': process.env.NODE_ENV === 'production'
-                        ? 'https://event-production-fawn.vercel.app'
+                        ? 'https://event-planning-six.vercel.app'
                         : 'http://localhost:3000',
                     'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
                     'Access-Control-Allow-Headers': 'Content-Type, Authorization',

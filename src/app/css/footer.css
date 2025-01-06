@@ -1,0 +1,39 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFF7F7;
+  transition: height 0.3s ease;
+  height: 50px;
+  overflow: hidden;
+  z-index: 50;
+}
+
+.footer:hover {
+  height: 300px;
+}
+
+.footer-content {
+  padding: 20px;
+  display: none;
+}
+
+.footer:hover .footer-content {
+  display: block;
+}
+
+.bottom-bar {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #FFF7F7;
+  color: gray;
+  border-top: 1px solid gray;
+}
+
+.accentuated-text {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+}

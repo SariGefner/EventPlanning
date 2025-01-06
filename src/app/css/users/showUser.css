@@ -1,0 +1,78 @@
+.userDetails {
+    padding: 1.5rem;
+    background-color: #f3f4f6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    direction: rtl;
+  }
+  
+  .userHeader {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profileImage {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profileImagePlaceholder {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #d1d5db;
+  }
+  
+  .userText {
+    text-align: right;
+  }
+  
+  .favoriteButton {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .favoriteButtonBlue {
+    background-color: #3b82f6;
+  }
+  
+  .favoriteButtonRed {
+    background-color: #ef4444;
+  }
+  
+  .postsContainer {
+    margin-top: 1rem;
+  }
+  
+  .postsHeader {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: right;
+  }
+  
+  .noPostsMessage {
+    margin-top: 1.5rem;
+    color: #6b7280;
+    text-align: right;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  

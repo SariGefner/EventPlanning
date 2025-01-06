@@ -1,0 +1,43 @@
+.add-post {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    direction: rtl;
+    text-align: right; 
+  }
+  
+  .add-post label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  .add-post input,
+  .add-post select,
+  .add-post textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: right; 
+    direction: rtl; 
+  }
+  .image-preview {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: flex-end; 
+  }
+  
+  .image-preview img {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
+  

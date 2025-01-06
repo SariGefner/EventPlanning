@@ -1,0 +1,25 @@
+/* customStyles.css */
+.posts-container {
+    @apply max-w-4xl mx-auto mt-8;
+  }
+  
+  .posts-title {
+    @apply text-2xl font-bold text-center mb-6 text-gray-800;
+  }
+  
+  .search-bar-container {
+    @apply mt-12;
+  }
+  
+  .posts-list {
+    @apply space-y-6;
+  }
+  
+  .loading-text {
+    @apply text-center py-4 animate-pulse text-gray-500;
+  }
+  
+  .no-more-posts-text {
+    @apply text-center py-4 text-gray-500;
+  }
+  
